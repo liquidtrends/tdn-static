@@ -1,0 +1,8 @@
+   {
+     "name": "TDN Webssite",
+     "version": "1.0.0",
+     "description": "TDN Website on Heroku",
+     "dependencies": {
+       "harp": "*"
+     }
+   }
