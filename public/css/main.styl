@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,300,700')
+@import '_nib'
+@import '_paper-styles'
+
+box-shadow()
+    -webkit-box-shadow arguments
+    -moz-box-shadow arguments
+    box-shadow arguments
+    html.ie8 &,
+    html.ie7 &,
+    html.ie6 &
+      border 2px solid arguments[length(arguments) - 1]
+
+a
+h2
+h3
+h4
+p
+	font-family 'Lato', sans-serif
+
+a
+	color black
+
+a:hover
+	color orange
+
+body
+	padding 0
+	margin 0
+
+.img-center 
+	margin 0 auto
+
+// Image styles
+
+// Main hero
+
+.main-hero
+	background url(/images/hero-bg.jpg) no-repeat center center fixed
+	background-size cover
+	height 100vh
+
+.main-hero h2
+	font-weight 300
+	color white
+	font-size 40px
+	text-transform uppercase
+	margin-top 40px
+
+.blue-hero-text
+	color lightblue
+
+// Navigation
+
+.navigation-container
+	background linear-gradient(top, grey, black)
+	text-align center
+
+.contact-container
+	background linear-gradient(top, #E65100, #FB8C00)
+	height 80px
+	text-align center
+	padding-top 30px
+
+.contact-container a
+	color black
+	font-size 16px
+	font-weight 700
+
+// Home second block
+
+.home-second-block
+	position relative
+	background url(/images/second-block-bg.jpg) repeat-x center center
+	padding-top 30px
+	height 150px
+
+.home-second-block h2
+	font-family 'Lato', sans-serif
+	font-size 24px
+	font-weight 300
+	color white
+	text-align center
+	text-transform uppercase
+
+.second-block-triangle
+	position absolute
+	right 0
+	bottom -285px
+	z-index 9
+
+// Home third block
+
+.home-third-block
+	background url(/images/third-block-bg.jpg) no-repeat
+	background-size cover
+	padding-top 40px
+
+.home-third-block h2
+	margin-top 0
+	color white
+	font-weight 300
+	padding-bottom 40px
+	text-transform uppercase
+
+.home-third-block h4
+	color white
+
+// Home fourth block
+
+.home-fourth-block
+	padding-top 40px
+	padding-bottom 40px
+
+.home-fourth-block h2
+	padding-bottom 20px
+	margin-top 0
+
+.badges
+	width 150px
+	height auto
+	margin 20px
+
+// Service Blocks
+
+.service-ul
+	margin-left 15px
+	padding-left 0
+
+.service-block
+	background white
+	text-align left
+	margin 20px
+	font-family 'Lato', sans-serif
+	font-size 18px
+	padding 8px 0 8px 2px
+	shadow-level(3)
+	border-radius 3px
+	list-style none
+	margin-left 0
+
+.service-block::before
+	background #21A9FD
+	padding 10px
+	font-family FontAwesome
+	margin-right 10px
+	color white
+    font-style normal
+    font-weight normal
+    text-decoration inherit
+	content '\f00c'
+
+// Sub page
+
+.page-background
+	background url(/images/hero-bg.jpg) no-repeat center center fixed
+	background-size cover
+	min-height 100vh
+
+.page-container
+	background rgba(3, 0, 0, 0.7)
+	padding-bottom 30px
+	padding-left 0
+	padding-right 0
+
+.page-content
+	background #FAFAFA
+	margin-top 20px
+	shadow-level(2)
+	border-radius 3px
+	color #212121
+
+.page-content-article
+	padding 20px
+
+.page-title-background
+	background #3a3a3a
+	color white
+	padding 20px
+	shadow-level(2)
+	border-left 6px solid #ed4900
+
+.page-title
+	font-size 22px
+	text-transform uppercase
+	margin-left 20px
+	padding-top 0
+	margin 0
+
+.certification-sub
+	padding 20px
+
+.white-text
+	color white
+
+// About Us
+
+.cpdfn-logo
+	width 250px
+	height auto
+	margin-top 50px
+
+.cpdfn-logo-sm
+	width 150px
+	height auto
+
+// Contact Us
+
+.contact-names
+	padding-left 0
+
+.contact-names li
+	list-style none
+
+// Footer
+
+.contact-block
+	background url(/images/footer-background.jpg) bottom center
+	background-color grey
+	height 400px
+	padding-top 40px
+
+.copyright
+	background black
+	padding 5px
+
+.copyright-link
+ 	color #90CAF9
+
+ .copyright-link:hover
+ 	color white
+ 	text-align right

@@ -1,0 +1,25 @@
+<%- partial("/_partials/_header") %>
+<div class="page-background">
+	<div class="container page-container">
+		<div class="col-md-3">
+			<%- partial("/_partials/_navigation") %>
+			<div class="row text-center certification-sub hidden-xs hidden-sm">
+				<span>
+					<img class="img-thumbnail img-circle badges" src="/images/isnetworld-seal.png">
+					<img class="img-thumbnail img-circle badges" src="/images/cor-seal.png">
+				</span>
+			</div>
+		</div>
+		<div class="col-md-9">
+			<article class="page-content">
+				<div class="page-title-background">
+					<h2 class="page-title"><%= pageTitle %></h2>
+				</div>
+				<div class="page-content-article">
+			        <%- partial("/_partials/_equipment") %>
+				</div>
+			</article>
+		</div>
+	</div>
+</div>
+<%- partial("/_partials/_footer") %>

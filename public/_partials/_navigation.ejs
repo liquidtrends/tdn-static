@@ -1,0 +1,27 @@
+<div class="navigation-container">
+    <div class="sidebar-nav">
+    <img class="img-responsive img-center" src="/images/logo.png">
+      <div class="navbar navbar-inverse" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <span class="visible-xs navbar-brand">Menu</span>
+        </div>
+        <div class="navbar-collapse collapse sidebar-navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="<%= current.source=='index'?'selected':'' %>"><a href="/index">Home</a></li>
+            <li class="<%= current.source=='about'?'selected':'' %>"><a href="/about">About Us</a></li>
+            <li class="<%= current.source=='services'?'selected':'' %>"><a href="/services">Our Services</a></li>
+            <li class="<%= current.source=='equipment'?'selected':'' %>"><a href="/equipment">Our Equipment</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="contact-container">
+      	<a href="/contact">Contact Us</a>
+      </div>
+    </div>
+</div>

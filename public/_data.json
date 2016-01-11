@@ -1,0 +1,23 @@
+{
+  "index": {
+    "pageTitle": "Home"
+  },
+
+  "about": {
+    "pageTitle": "About Us"
+  },
+
+  "services": {
+    "pageTitle": "Our Services"
+  },
+
+  "contact": {
+    "pageTitle": "Contact Us"
+  },
+
+  "equipment": {
+    "pageTitle": "Our Equipment and Manpower"
+  }
+
+
+}

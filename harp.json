@@ -1,0 +1,34 @@
+{
+  "globals": {
+    "title": "TDN Contracting Ltd.",
+    "uri": "http://tdncontracting.com",
+    "description": "TDN Contracting Ltd is a Chipewyan Prairie First Nation owned company, which operates out of Janvier, AB.",
+    "services": ["Heavy Equipment", "Operators", "Slashers", "Labourers", "Environmental Montitoring", "Road Maintenance", "Road Building", "Frost Packing", "Snow Clearing", "Right of Way (ROW) Clearing", "Utility Tree Work"],
+    "equipments": ["Snowcats (3)",
+    "D-3 Dozer",
+    "D-6N Dozer c/w Ripper",
+    "D-6N Dozer c/w Winch",
+    "Haglund",
+    "Water Trucks",
+    "Water Truck with Flotation Tires",
+    "High Performance Snow Making Machine c/w 2 Men and Truck",
+    "Trucking - Lowboy and Truck",
+    "Champion 740A Grader",
+    "John Deere 870 Grader",
+    "Backhoe - Hitachi 270LC",
+    "Buckets or Grapple",
+    "Backhoe - John Deere 200LC c/w Attachments",
+    "Rubber Tired Backhoe - Caterpillar 420E IT",
+    "Skid Steer on Tires",
+    "Skid Steer on Tracks",
+    "Snowmobiles and Tobaggans",
+    "Quads",
+    "Argos",
+    "Service Trucks",
+    "Supervisor with Truck",
+    "Slashers (Man and Saw)",
+    "Labourers",
+    "Safety on site with Truck"
+    ]
+  }
+}
