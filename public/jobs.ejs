@@ -1,0 +1,35 @@
+<%- partial("/_partials/_header") %>
+<div ng-controller="feedListController">
+    <table class="table">
+        <tr>
+            <td>
+                Name
+            </td>
+            <td>
+                Url
+            </td>
+            <td>
+                Description
+            </td>
+        </tr>
+        <tr ng-repeat=" feeds in feedsList">
+            <td>{{jobs.Title}}</td>
+            <td>{{jobs.Description}}</td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" ng-model="feedsList.Name" /><br />
+            </td>
+            <td>
+                <input type="text" ng-model="feedsList.Url" /><br />
+            </td>
+            <td>
+                <input type="text" ng-model="feedsList.Description" /><br />
+            </td>
+            <td>
+                <button type="submit" ng-click="save()">Add Feed</button>
+            </td>
+        </tr>
+    </table>
+</div>
+<%- partial("/_partials/_footer") %>
