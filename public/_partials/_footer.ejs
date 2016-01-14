@@ -4,8 +4,7 @@
 			<!-- Contact Form -->
 			<div class="col-md-4">
 				<h3><i class="fa fa-envelope"></i> Get in touch</h3>
-				<form role="form" action="//formspree.io/liquidtrends@gmail.com"
-				      method="POST">
+				<form id="contact-form" role="form">
 				      	<div class="form-group">
 				    		<input placeholder="Your name" class="form-control" type="text" name="name">
 				    	</div>
@@ -17,6 +16,15 @@
 				    	</div>
 				    	<button type="submit button" class="btn btn-default" value="Send">Send</button>
 				</form>
+				<!-- Hidden message to show if contact is successful. -->
+				<div id="submit-success" class="alert alert-success collapse" role="alert">
+				  Message received! We will be in touch.
+				</div>
+				<!-- Hidden message to show if user encounters errors. -->
+				<div id="submit-errors" class="alert alert-danger collapse" role="alert">
+				  It looks like there was an error submitting the form.
+				  Please try again later.
+				</div>
 			</div>
 			<!-- Middle Block -->
 			<div class="col-md-4">
@@ -48,6 +56,7 @@
 </body>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha256-KXn5puMvxCw+dAYznun+drMdG1IFl3agK0p/pqT9KAo= sha512-2e8qq0ETcfWRI4HJBzQiA3UoyFk6tbNyG+qSaIBZLyW9Xf3sWZHN/lxe9fTh1U45DpPf07yj94KsUHHWe4Yk1A==" crossorigin="anonymous"></script>
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
 <script src="//cdn.datatables.net/1.10.10/js/jquery.dataTables.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <script src="/js/jquery.columnizer.min.js"></script>

@@ -1,35 +1,26 @@
 <%- partial("/_partials/_header") %>
-<div ng-controller="feedListController">
-    <table class="table">
-        <tr>
-            <td>
-                Name
-            </td>
-            <td>
-                Url
-            </td>
-            <td>
-                Description
-            </td>
-        </tr>
-        <tr ng-repeat=" feeds in feedsList">
-            <td>{{jobs.Title}}</td>
-            <td>{{jobs.Description}}</td>
-        </tr>
-        <tr>
-            <td>
-                <input type="text" ng-model="feedsList.Name" /><br />
-            </td>
-            <td>
-                <input type="text" ng-model="feedsList.Url" /><br />
-            </td>
-            <td>
-                <input type="text" ng-model="feedsList.Description" /><br />
-            </td>
-            <td>
-                <button type="submit" ng-click="save()">Add Feed</button>
-            </td>
-        </tr>
-    </table>
+<div class="page-background">
+    <div class="container page-container">
+        <div class="col-md-3">
+            <%- partial("/_partials/_navigation") %>
+            <div class="row text-center certification-sub hidden-xs hidden-sm">
+                <span>
+                    <img class="img-thumbnail img-circle badges" src="/images/isnetworld-seal.png">
+                    <img class="img-thumbnail img-circle badges" src="/images/cor-seal.png">
+                </span>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <article class="page-content">
+                <div class="page-title-background">
+                    <h2 class="page-title"><%= pageTitle %></h2>
+                </div>
+                <div class="page-content-article">
+                    <div id="jobsDiv"></div>
+                    <!-- <div class="no-jobs">There are currently no jobs</div> -->
+                </div>
+            </article>
+        </div>
+    </div>
 </div>
 <%- partial("/_partials/_footer") %>
