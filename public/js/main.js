@@ -53,7 +53,7 @@ $("#contact-form").validate({
         $("#contact-form").fadeOut();
       },
       error: function() {
-        $("#submit-errors").fadeIn();        
+        $("#submit-errors").fadeIn();
       }
     });
   }
