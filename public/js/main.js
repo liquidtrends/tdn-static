@@ -1,4 +1,6 @@
-new WOW().init();
+if(Modernizr.cssanimations) {
+     new WOW().init();
+}
 
 var today = new Date();
 var year = today.getFullYear();
@@ -40,7 +42,7 @@ function displayJobs(title, description){
 $("#contact-form").validate({
   submitHandler: function(form) {
     $.ajax({
-      url: "//formspree.io/liquidtrends@gmail.com", 
+      url: "//formspree.io/liquidtrends@gmail.com",
       method: "POST",
       data: {
         name: $(form).find("input[name='name']").val(),
