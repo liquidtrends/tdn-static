@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "TDN Website",
   "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-s3": "^0.2.0-alpha.3",
+    "grunt-shell": "^1.1.2",
     "harp": "^0.20.1"
   }
 }
